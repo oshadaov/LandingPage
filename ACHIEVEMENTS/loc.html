@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Map Example</title>
+    <script src="https://www.google.com/maps/@7.857685,80.70625,7z"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+          center: new google.maps.LatLng(51.508742, -0.120850),
+          zoom: 8
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+      google.maps.event.addDomListener(window, "load", initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map" style="width:500px; height:500px;"></div>
+  </body>
+</html>
+
+
+
+
+

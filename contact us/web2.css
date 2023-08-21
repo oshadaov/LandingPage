@@ -1,0 +1,289 @@
+*{
+	color:white; 
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+nav{
+	background-color:black;
+	display:flex;
+	padding: 1% 6% ;
+	justify-content:space-between;
+	align-items:center;
+}
+.nav-links{
+	flex: 1;
+	text-align:center;
+}
+.nav-links ul li{
+	
+	
+	margin:30px;
+	font-size:25px;
+	padding:8px 10 px;
+	position:relative;
+	display:inline;
+}
+.nav-links ul li a{
+	text-decoration:none;
+	color::white;
+	 
+}
+
+
+.nav-links ul li:hover{
+	background-color:green;
+	  transform: rotate(360deg);
+}
+
+
+#gym {width:100%;
+	height:500px;	
+	background-image:url(os.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+	align-items:right;
+	overflow:hidden;
+}
+#gym img {
+	width:100%;
+	 filter: brightness(50%) grayscale(50%);
+	 
+}
+.text1 {
+	text-align:right;
+	padding:9% 9%;
+}
+.text1 h1{
+	font-size:40px;
+	color:red;
+}
+.text1 h2{
+	font-size:75px;
+	color:red;
+}
+.text1 h3{
+	font-size:30px;
+	color:red;
+}
+.text1 p{
+	color:black;
+}
+
+.section2 {
+	margin:0 auto;
+	background-image:url(R.jpeg);
+	width:100%;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:1000px;
+}
+.section2 h1{
+
+	padding-top:50px;
+	font-size:50px;
+	text-align:center;
+	transition: 1s;
+}
+.section2 h1:hover{
+	transform: scale(1.20);
+}
+.section2 img {
+	
+	filter: brightness(50%) grayscale(50%);
+	 
+}
+
+
+
+#last {
+	width:100%;
+	height:500px;	
+	background-image:url(os1.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+	align-items:right;
+	overflow:hidden;
+	
+}
+
+.textlast h1{
+	font-size:32px;
+	width:100%;
+	background-color:transparent;
+	display:flex;
+	flex-direction:row;
+	padding: 1%;
+	margin-left:2px;
+	align-items:center;
+	text-align:center;
+	justify-content:space-between;
+	
+
+}
+
+
+.textlast h1  span{
+   display: inline-block;
+    transition: transform 0.5s ease-in-out;
+  }
+
+.textlast h1 span:hover {
+    transform: rotate(360deg);
+	color:green;
+	font-size:25px;
+}
+
+.footer-row{
+	width:90%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.footer-left,.footer-right{
+	flex-basis:30%;
+	padding:10px;
+	margin-bottom:20px;
+}
+.icon {
+	display:flex;
+	flex-direction:row;
+	padding-left:50px;
+	padding-bottom:20px;
+	margin-top:25px;
+	width:90%;
+	text-align:center;
+	align-items:center;
+	font-size:20px;
+	
+}
+.icon :hover{
+	color:green;
+	font-size:70px;
+}
+.icon span:hover{
+		color:green;
+	font-size:40px;
+}
+.nav-li ul li{
+	
+	list-style:none;
+	padding-left:50px;
+	padding-bottom:20px;
+	margin-top:25px;
+	width:90%;
+	text-align:right;
+	align-items:center;
+	font-size:20px;
+}
+.nav-li ul li:hover{
+	
+	font-size:30px;
+}
+.nav-li :hover{
+	color:red;
+}
+
+
+
+
+
+
+
+.footer p{
+	margin-bottom:0px;
+	background-repeat:no repeat;
+	background-size:cover;
+	background-image:url(os.jpg);
+	color:red;
+	text-align:center;
+	align-items:center;
+	height:20px;
+}
+.section3{
+	margin-top:100px;
+}
+
+
+.divide{
+	width:40%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.call,.social{
+	flex-basis:30%;
+	padding:10px;
+	margin-top:120px;
+}
+.call h2:hover{
+ 
+	color:yellow;
+	font-size:25px;
+}
+.social h2:hover{
+color:yellow;
+	font-size:25px;
+}
+
+form {
+	
+	font-family:georgia;
+  position:relative;
+  width:85%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 70%;
+  color:black;
+  padding: 12px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px 10px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.section00{
+	width:100%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.divide,.divide1{
+	flex-basis:39%;
+	padding:10px;
+	margin-top:20px;
+}
+.section3 h3{
+	text-align:center;
+	font-size:22px;
+	padding-bottom:20px;
+}
